@@ -1,0 +1,10 @@
+{
+  "name": "factograph",
+  "version": "0.2.6",
+  "description": "Memory for AI agents: facts a person approved, each with a link, and answers that cite them.",
+  "mcpServers": {
+    "factograph": {
+      "httpUrl": "https://api.factograph.app/api/mcp"
+    }
+  }
+}

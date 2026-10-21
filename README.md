@@ -57,7 +57,13 @@ claude mcp add --transport http factograph https://api.factograph.app/api/mcp
 url = "https://api.factograph.app/api/mcp"
 ```
 
-**Gemini CLI** (`settings.json`):
+**Gemini CLI:**
+
+```sh
+gemini extensions install https://github.com/FactoGraphApp/factograph-mcp
+```
+
+or in `settings.json`:
 
 ```json
 {
@@ -98,6 +104,7 @@ The plugin follows the [Agent Plugins](https://agent-plugins.org) 1.0 standard:
 - `mcp.json`: the FactoGraph MCP server
 - `skills/get-started/SKILL.md`: how an agent uses the tools and cites facts
 - `server.json`: the entry in the official MCP Registry
+- `gemini-extension.json`: the Gemini CLI extension
 
 ## Privacy and terms
 
