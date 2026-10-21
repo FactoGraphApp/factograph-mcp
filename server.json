@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.factograph/factograph",
+  "title": "FactoGraph",
+  "description": "Memory for AI agents: facts a person approved, each with a link, and answers that cite them.",
+  "version": "0.2.0",
+  "websiteUrl": "https://www.factograph.app/for-ai-agents.html",
+  "icons": [
+    { "src": "https://www.factograph.app/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.factograph.app/api/mcp"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://api.factograph.app/api/k/{store_id}/mcp",
+      "variables": {
+        "store_id": {
+          "description": "Your store's id, from its private link https://api.factograph.app/api/k/<id>. The first connector's createStore makes one.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      }
+    }
+  ]
+}
