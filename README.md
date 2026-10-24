@@ -33,6 +33,15 @@ itself is hosted: there is nothing to install or run.
 
 **Claude Code:**
 
+As a plugin, with the `get-started` skill:
+
+```sh
+/plugin marketplace add FactoGraphApp/factograph-mcp
+/plugin install factograph@factograph
+```
+
+or only the server:
+
 ```sh
 claude mcp add --transport http factograph https://api.factograph.app/api/mcp
 ```
@@ -105,6 +114,7 @@ The plugin follows the [Agent Plugins](https://agent-plugins.org) 1.0 standard:
 - `skills/get-started/SKILL.md`: how an agent uses the tools and cites facts
 - `server.json`: the entry in the official MCP Registry
 - `gemini-extension.json`: the Gemini CLI extension
+- `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`: the Claude Code plugin and its marketplace
 
 ## Privacy and terms
 

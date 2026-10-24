@@ -1,0 +1,27 @@
+{
+  "name": "factograph",
+  "version": "0.2.6",
+  "description": "Answers from facts people approved, every claim linked to the fact behind it - read public knowledge stores, or keep a person's own.",
+  "author": {
+    "name": "FactoGraph",
+    "email": "info@factograph.app",
+    "url": "https://www.factograph.app"
+  },
+  "homepage": "https://www.factograph.app/for-ai-agents.html",
+  "repository": "https://github.com/FactoGraphApp/factograph-mcp",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://www.factograph.app/privacy.html",
+  "keywords": [
+    "memory",
+    "knowledge",
+    "facts",
+    "citations",
+    "mcp"
+  ],
+  "mcpServers": {
+    "factograph": {
+      "type": "http",
+      "url": "https://api.factograph.app/api/mcp"
+    }
+  }
+}

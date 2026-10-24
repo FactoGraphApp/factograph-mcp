@@ -1,0 +1,27 @@
+{
+  "name": "factograph",
+  "owner": {
+    "name": "FactoGraph",
+    "email": "info@factograph.app"
+  },
+  "metadata": {
+    "description": "FactoGraph's plugin for Claude Code: answers from approved facts, each claim linked to its fact."
+  },
+  "plugins": [
+    {
+      "name": "factograph",
+      "source": "./",
+      "description": "Answers from facts people approved, every claim linked to the fact behind it - read public knowledge stores, or keep a person's own.",
+      "version": "0.2.6",
+      "author": {
+        "name": "FactoGraph",
+        "email": "info@factograph.app"
+      },
+      "homepage": "https://www.factograph.app/for-ai-agents.html",
+      "repository": "https://github.com/FactoGraphApp/factograph-mcp",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["memory", "knowledge", "facts", "citations", "mcp"]
+    }
+  ]
+}
