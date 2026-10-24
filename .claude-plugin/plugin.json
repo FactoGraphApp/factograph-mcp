@@ -2,6 +2,7 @@
   "name": "factograph",
   "version": "0.2.6",
   "description": "Answers from facts people approved, every claim linked to the fact behind it - read public knowledge stores, or keep a person's own.",
+  "icon": "./assets/logo.png",
   "author": {
     "name": "FactoGraph",
     "email": "info@factograph.app",
